@@ -45,7 +45,7 @@ app.use('/api', routes);
 app.get('/', (req, res) => {
   res.json({
     success: true,
-    message: 'Welcome to Healthcare API',
+    message: 'Welcome to EMD API',
     version: '1.0.0'
   });
 });
